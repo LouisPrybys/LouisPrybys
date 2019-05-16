@@ -1,0 +1,311 @@
+
+.wrapper
+{
+  max-width: 970px;
+  top: 0px;
+  padding-bottom: 40px;
+}
+
+.profile-title
+{
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 8px;
+}
+
+.student
+{
+  padding-top: 20px;
+}
+
+.padding
+{
+  padding-bottom: 20px;
+}
+
+.think
+{
+  padding-top: 15px;
+}
+
+.large
+{
+  width: 70%;
+  padding-bottom: 30px;
+}
+
+.page-footer
+{
+  background-color: black;
+}
+
+.pro
+{
+  width: 100%;
+}
+
+.parallax-container
+{
+  height: 450px;
+}
+
+.parallax-container.para
+{
+  height: 550px;
+}
+
+.positionnuage
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.mind {
+  width: 800px;
+  height: 600px;
+}
+
+#utile
+{
+  background-color: white;
+  padding-bottom: 30px;
+  width: 50%;
+}
+
+.mots
+{
+  width: 40%;
+}
+
+.header-bg
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./image/artifi.jpg);
+  height: 480px;
+}
+
+.avatar
+{
+  min-width: 100px;
+}
+
+.card1
+{
+  text-align: right;
+}
+
+.card
+{
+  margin: 2rem 0 1rem 0;
+}
+
+.page
+{
+  text-decoration: none;
+  color: white;
+}
+
+.fleche
+{
+  margin-left: auto;
+}
+
+.flecheretour
+{
+  height: 40px;
+  width: 40px;
+}
+
+.profile-desc
+{
+  display: inline-block;
+  color: #848484;
+}
+
+.social-icons li
+{
+  display: inline-block;
+  padding: 0px 9px;
+}
+
+img.avatar
+{
+  margin-top: 35px;
+  width: 230px;
+}
+
+.info ul
+{
+  display: inline-block;
+  text-align: left;
+}
+
+#fleche
+{
+  margin-left: auto;
+}
+
+h1
+{
+  font-size: 42px;
+  line-height: 42px;
+}
+
+h2
+{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+h3
+{
+  text-align: center;
+  font-size: 30px;
+}
+
+.info p
+{
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.interests > div
+{
+  padding: 0px;
+}
+
+img.responsive-img
+{
+  height: 340px;
+  width: 270px;
+}
+
+.slider
+{
+  margin:0px auto;
+  padding-bottom: 20px;
+}
+
+div#page
+{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.back-to-top
+{
+  position: fixed;
+  bottom: 2em;
+  right: 0px;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 1em;
+  display: none;
+}
+
+.back-to-top:hover
+{
+  text-decoration: none;
+}
+
+.back-to-top img
+{
+  width: 60px;
+  opacity: .7;
+  filter: alpha(opacity=20);
+  transition: all .4s ease-out;
+  -o-transition: all .5s ease-out;
+  -moz-transition: all .4s ease-out;
+  -webkit-transition: all .4s ease-out;
+}
+
+.back-to-top img:hover
+{
+  text-decoration: none;
+  opacity: .9;
+}
+
+.materialboxed
+{
+  width: 600px;
+  height: 400px;
+}
+
+.display
+{
+  display:none;
+}
+
+@media screen and (max-width: 992px)
+{
+  .display1
+  {
+    display: none;
+  }
+
+  .parallax-container
+  {
+    height: 800px;
+  }
+
+  .parallax-container.para
+  {
+    height: 380px;
+  }
+
+  .materialboxed
+  {
+    width: 400px;
+    height: 250px;
+  }
+
+  .positionnuage
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+  img.responsive-img
+{
+  height: 250px;
+  width: 200px;
+}
+}
+
+@media screen and (max-width: 600px)
+{
+  .parallax-container.para
+  {
+    height: 320px;
+  }
+
+  .materialboxed
+  {
+    width: 250px;
+    height: 180px;
+  }
+
+  .positionnuage
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+  }
+    img.responsive-img
+  {
+    height: 250px;
+    width: 200px;
+  }
+}
